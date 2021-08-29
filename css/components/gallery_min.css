@@ -1,0 +1,70 @@
+/*****************************************
+  *  --------------------------------------*
+  *  Slick                                 *
+  *  --------------------------------------*
+  *****************************************/
+  
+  /* .cl {
+    height:200px;
+    padding:10px;
+  } */
+  /* .gallery__container__min{
+        padding: 10px; 
+  } */
+  /* cl{
+      width: 135px;
+  } */
+  /* .slide .slick-slide{
+      width: 30px;
+  }
+   */
+   .slick-active { 
+    opacity: 1;
+  }
+  
+  .slick-center { 
+      opacity: 1; 
+  }
+  
+  .slick-slide:not(.slick-active) {  
+    opacity: 0.5;
+  }
+/*   
+  .child { 
+    width:100%; 
+  }
+   */
+  .slide:not(.slick-active) { 
+    cursor: pointer; 
+  }
+  .cl img{
+      margin: 0 auto;
+      padding: 0px 10px;
+  } 
+  /* .slick-slide{
+      width: 135px !important;
+  } */
+
+  .container__min{
+    /* display: block; */
+      margin: 0 auto;
+      margin-bottom: 32px;
+  }
+  
+.user__min img{
+    width: 202px;
+}
+.clothes img{
+    height: 400px;
+}
+.clothes p{
+    text-align: center;
+}
+.user__min_gallery img{
+  padding: 0px 0px; 
+}
+@media screen and (max-device-width: 300px){
+  .user__min img{
+    width: 160px;
+}
+}
